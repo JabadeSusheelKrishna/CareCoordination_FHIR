@@ -41,6 +41,20 @@
 > ```
 > python3 hos_a_server.py
 > ```
+> ### requirements :
+> `blinker==1.9.0`
+> `certifi==2024.8.30`
+> `charset-normalizer==3.4.0`
+> `click==8.1.7`
+> `Flask==3.1.0`
+> `Flask-Cors==5.0.0`
+> `idna==3.10`
+> `itsdangerous==2.2.0`
+> `Jinja2==3.1.4`
+> `MarkupSafe==3.0.2`
+> `requests==2.32.3`
+> `urllib3==2.2.3`
+> `Werkzeug==3.1.3`
 > - if you are trying to test on the Single system, then for multiple hospitals test, please run the `hos_b_server.py`  and `hos_c_server.py`. because the IP address is same, so common port can create and issue.
 > - in case of multiple systems, You can run `hos_a_server.py` in different systems. because the Ip address changes for each system. So common port is not an issue.
 > - Now we also have to run the FHIR server to store patient data. for that run the below command : 
